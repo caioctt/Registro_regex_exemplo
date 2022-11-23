@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css"> 
+</head>
+
+<body class="container">
+    
+    <h1 class="text-left">Registro com Regex</h1>
+    <br/>
+    <form class="form" >
+
+        <div class="form-group">
+
+            <label for="login">Usuário</label>
+            <input 
+            type="text" 
+            id="login" 
+            class="form-control" 
+            value="" 
+            autocomplete="off" 
+            required 
+            autofocus 
+            placeholder="Digite um nome de usuário" />
+            <br/>
+
+            <label for="senha">Senha</label>
+            <input 
+            type="password" 
+            id="senha" 
+            class="form-control" 
+            value="" 
+            autocomplete="off" 
+            required 
+            placeholder="Digite uma senha" />    
+
+            <div class="checkbox">
+                <label>
+                    <input 
+                    type="checkbox" 
+                    id="mostraIndex" 
+                    value="false" 
+                    onclick="mostrarSenha()"/> 
+                    Exibir senha 
+                </label>
+            </div>
+
+        </div> 
+
+        <button class="btn btn-primary" type="submit" onclick="registrar(event)">Registrar</button>
+        
+    </form>
+
+    <script src="js/regex.js"></script>
+    </body>
+</html>
