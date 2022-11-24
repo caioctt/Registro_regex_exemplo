@@ -1,3 +1,4 @@
+//função para exibir / ocultar o campo da senha
 function mostrarSenha() {
   var inputSenha = document.querySelector("#senha");
   if (inputSenha.type === "password") {
@@ -7,36 +8,16 @@ function mostrarSenha() {
   }
 }
 
-function pegaDadosDoForm() {
-  var inputLogin = document.querySelector("#login");
-  var inputSenha = document.querySelector("#senha");
+function registrar() {
+  //captura as entradas nos campos de usuário e senha
+  const usuario = document.querySelector("#usuario").value;
+  const senha = document.querySelector("#senha").value;
 
-  verificaInputs(inputSenha, inputLogin);
+  //identifica se usuário e senha estão preenchidos
+  if (!usuario || !senha) return;
 
-  return {
-    login: inputSenha.value.trim(),
-    senha: inputLogin.value,
-  };
-}
-
-function verificaInputs(inputSenha, inputLogin) {
-  if (!inputSenha.value) {
-    inputLogin.placeholder = "Digite um nome de usuário";
-  }
-
-  if (!inputLogin.value) {
-    inputSenha.placeholder = "Digite uma senha";
-  }
-
-  if (!inputSenha.value || !inputLogin.value) {
-    throw "Usuário e senha inválidos";
-  }
-}
-
-function registrar(event) {
-  var dados = pegaDadosDoForm();
-
-  dados.senha.match(dados.login)
+  //identifica com regex se a senha contém a mesma string do usuário
+  senha.match(usuario)
     ? alert("Por favor, insira uma senha que não contenha o nome de usuário")
     : alert("Registro efetuado com sucesso");
 }
