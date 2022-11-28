@@ -20,5 +20,5 @@ O projeto não necessita ser instalado, pois se trata de um projeto com HTML, CS
 Também é possivel realizar o download do projeto para execução local, clicando [Aqui](https://github.com/caioctt/Registro_regex_exemplo/archive/refs/heads/main.zip)
 
 ## Demonstração
-
+Clique na imagem abaixo para assitir ao vídeo.
 [![Assistir video](https://img.youtube.com/vi/9hPLzQAapFA/default.jpg)](https://www.youtube.com/watch?v=9hPLzQAapFA)
