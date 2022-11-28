@@ -21,6 +21,4 @@ Também é possivel realizar o download do projeto para execução local, clican
 
 ## Demonstração
 
-<div align="center">
-  <video src="https://www.youtube.com/embed/9hPLzQAapFA" width=400/>
-<div/>
+[Video demonstrativo](https://www.youtube.com/embed/9hPLzQAapFA)
