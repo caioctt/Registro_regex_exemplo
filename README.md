@@ -22,3 +22,4 @@ Também é possivel realizar o download do projeto para execução local, clican
 ## Demonstração
 
 [Video demonstrativo](https://www.youtube.com/embed/9hPLzQAapFA)
+[![Watch the video](https://img.youtube.com/vi/9hPLzQAapFA/default.jpg)](https://www.youtube.com/watch?v=9hPLzQAapFA)
