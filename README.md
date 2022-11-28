@@ -19,6 +19,8 @@ O projeto não necessita ser instalado, pois se trata de um projeto com HTML, CS
 
 Também é possivel realizar o download do projeto para execução local, clicando [Aqui](https://github.com/caioctt/Registro_regex_exemplo/archive/refs/heads/main.zip)
 
+E pode ser executado também com o liveserver.
+
 ## Demonstração
 Clique na imagem abaixo para assitir ao vídeo.
 
